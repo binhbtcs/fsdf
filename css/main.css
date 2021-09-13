@@ -1,29 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+}
 .top{
-	width: 1910px;
+	width: 100%;
 	height: auto;
-	margin-top: -9px;
-	margin-left: -15px
+	
 }
 .menu{
 	width: 100%;
 	height: 80px;
 	background-color:#24262a;
 	float: left;
+	position: fixed;
 }
 .logomenu{
-	width: 310px;
-	height: 55px;
-	margin-top: 9px;
+	width: 250px;
+	height: 44px;
+	margin-top: 17px;
 	margin-left: 40px;
 	background-image:url( "../images/r6s-y6-logo.webp");
-	background-size: contain;
+	background-size: cover;
 	float: left;
 	
 }
 .logomenu2{
-	width: 1050px;
+	width: 50%;
 	height: 80px;
 	background-color: #24262a;
 	float:left;
@@ -91,14 +95,14 @@
 
 
 .logomenu3{
-	width: 480px;
+	width: 29%;
 	height: 80px;
 	background-color: #24262a;
 	float: left;
 	font-weight: 800;
 	font-family: r6;
 	font-size: 150%;
-	
+	margin-left: 80px;
 		
 }
 .in3{
@@ -106,7 +110,7 @@
 	height: 60px;
 	background-color:rgba(36,153,255,1.00);
 	float: right;
-	margin: 2%;
+	margin: 1.7%;
 	text-align: center;
 	color:black;
 	font-family: r6;
@@ -125,7 +129,8 @@
 	background-image: url( "../images/r6s-gameinfo-discover-intro-bg.webp");
 	background-size: cover;
 	float: left;
-	
+	margin-top: 80px;
+	box-sizing: border-box;
 }
 .new{
 	width: 380px;
@@ -138,8 +143,8 @@
 	padding: 25px;
 	box-sizing: border-box;
 	background-size: cover;
-	color: black;
-	
+	color: #24262A;
+	letter-spacing: 0.1px;
 }
 .newbox{
 	width: 200px;
@@ -154,8 +159,14 @@
 	letter-spacing: 0.5px;
 	
 }
-.newbox:hover{
+.newbox a{
+	text-decoration: none;
+	color:#24262a;
+	
+}
+.newbox:hover {
 	background-color: aqua;
+	
 }
 .new1{
 	width: 400px;
@@ -177,9 +188,9 @@
 	font-weight: 800;
 	padding-top: -10px;
 	box-sizing: border-box;
-	font-size: 250%;
+	font-size: 230%;
 	letter-spacing: 0.5px;
-	
+	color: #24262a;
 	
 }
 .newbox1{
@@ -192,7 +203,11 @@
 	padding: 6px;
 	box-sizing: border-box;
 	font-size: 150%;
-	
+	font-weight: 500;
+}
+.newbox1 a{
+	text-decoration: none;
+	color: #24262a;
 }
 .newbox1:hover{
 	background-color: aqua;
@@ -206,6 +221,17 @@
 	
 	
 }
+.boxtrai a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
+}
+.readmore a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
+	
+}
 .trai{
 	width: 50%;
 	height: 1550px;
@@ -216,6 +242,12 @@
 	color: aliceblue;
  	font-family: r6;
 	
+	
+}
+.readmore2 a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
 	
 }
 .phai{
@@ -258,7 +290,7 @@
 	font-family: r6;
 	box-sizing: border-box;
 	background-color: #ffffff99;
-	
+	letter-spacing: 0.2px;
 	
 }
 .boxtrai{
@@ -315,8 +347,8 @@
 	text-align: left;
 	box-sizing: border-box;
 	padding-left: 10px;
-	
-	font-size: 105%
+	letter-spacing: 0.5px;
+	font-size: 105%;
 	
 }
 .botton{
@@ -398,8 +430,8 @@
 	text-align: left;
 	box-sizing: border-box;
 	padding-left: 10px;
-	
-	font-size: 105%
+	letter-spacing: 0.3px;
+	font-size: 105%;
 	}
 .phai3{
 	width: 900px;
@@ -423,8 +455,8 @@
 	text-align: left;
 	box-sizing: border-box;
 	padding-left: 10px;
-	
-	font-size: 105%
+	letter-spacing: 0.3px;
+	font-size: 105%;
 	
 	}
 .allnew{
@@ -441,6 +473,26 @@
 	box-sizing: border-box;
 	opacity: 0.9;	
 		
+}
+.allnew a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 600;
+}
+.discover a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
+}
+.qf5-1 a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
+}
+.qf5-2 a{
+	text-decoration: none;
+	color: #24262a;
+	font-weight: 500;
 }
 .endnew{
 	width: 1500px;
@@ -741,7 +793,7 @@
 	margin-left: 480px;
 	justify-content: center;
 	display: flex;
-	
+	text-decoration: none;
 }
 .osa2-1{
 	width: 100px;
@@ -756,6 +808,7 @@
 	padding-top: 4px;
 	box-sizing: border-box;
 	letter-spacing: 0.5px;
+	text-decoration: none;
 }
 .osa2-1:hover{
 	background-color:rgba(0,255,255,1.00);
@@ -918,7 +971,8 @@
 	margin-left: 50px;
 	color: #ffffff;
 	font-weight: 500;
-	font-size: 110%
+	font-size: 110%;
+	text-decoration: none;
 	
 }
 .t3{
@@ -975,7 +1029,7 @@
 	font-size: 70%;
 	box-sizing: border-box;
 	float: left;
-	
+	text-decoration: none;
 }
 .p3-1{
 	width: 188px;
@@ -983,7 +1037,7 @@
 	color: #ffffff;
 	font-family: roboto;
 	font-size: 180%;
-	
+	text-decoration: none;
 		
 	
 }
@@ -998,6 +1052,7 @@
 	box-sizing: border-box;
 	float: left;
 	
+	
 }
 .p4-1{
 	width: 188px;
@@ -1005,6 +1060,7 @@
 	color: #ffffff;
 	font-family: roboto;
 	font-size: 180%;
+	
 }
 .warning{
 	margin-left: 1300px;
@@ -1032,7 +1088,41 @@
 	font-size: 75%;
 	clear: both;
 }
-
+.osa2-1 a{
+	text-decoration: none;
+	color: #24262a;
+	
+}
+.p4 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.p4-1 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.p3-1 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.p3 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.p2 a{
+	text-decoration: none;
+	color:#ffffff;
+}
+.p2-1 a{
+	text-decoration: none;
+	color:#ffffff;
+}.t2 a{
+	text-decoration: none;
+	color:#ffffff;
+}.t3 a{
+	text-decoration: none;
+	color:#ffffff;
+}
 @font-face{
 	font-family: roboto;
 	src: url( "../font/Roboto-Bold.ttf");
